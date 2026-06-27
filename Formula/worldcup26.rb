@@ -1,19 +1,19 @@
 class Worldcup26 < Formula
   desc "Fast, keyboard-driven terminal UI for the FIFA World Cup 2026"
   homepage "https://github.com/djensenius/WorldCup-2026"
-  version "0.3.1"
+  version "0.4.0"
   license "Apache-2.0"
 
   # The release pipeline updates the version, url, and sha256 values below on
   # each tagged release. macOS builds ship for both Apple Silicon and Intel.
   on_macos do
     on_arm do
-      url "https://github.com/djensenius/WorldCup-2026/releases/download/v0.3.1/worldcup26-aarch64-apple-darwin.tar.gz"
-      sha256 "9be211d3e93acb520ae51caa0e36baf62d6779c9de8d92d5fedd9f3f0e63eff5"
+      url "https://github.com/djensenius/WorldCup-2026/releases/download/v0.4.0/worldcup26-aarch64-apple-darwin.tar.gz"
+      sha256 "8609a435deedb9de7c3453935254c8adc8b401feaafd03aff3cadab373d17bc3"
     end
     on_intel do
-      url "https://github.com/djensenius/WorldCup-2026/releases/download/v0.3.1/worldcup26-x86_64-apple-darwin.tar.gz"
-      sha256 "d6827bf633d981f92028c37c898e4ec152189b41624ab8642f5d95b17363769b"
+      url "https://github.com/djensenius/WorldCup-2026/releases/download/v0.4.0/worldcup26-x86_64-apple-darwin.tar.gz"
+      sha256 "d7e5501b049d24caa397065731737eb72b80e132ef88079705f0c0df82ffaed3"
     end
   end
 
