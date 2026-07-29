@@ -1,7 +1,7 @@
 class TelephoneBoothOperatorCli < Formula
   desc "Terminal operator console (TUI) for the Telephone-Booth installation"
   homepage "https://github.com/djensenius/Telephone-Booth-Operator-cli"
-  version "0.6.0"
+  version "0.6.1"
   license "Apache-2.0"
 
   # Prebuilt binaries. The release pipeline regenerates this file
@@ -9,19 +9,19 @@ class TelephoneBoothOperatorCli < Formula
   # macOS is Apple Silicon only; Linux covers x86_64 and arm64.
   on_macos do
     on_arm do
-      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.0/tb-operator-aarch64-apple-darwin.tar.gz"
-      sha256 "4c1253eee992f3b0c9c5e1643c9f3e858d45a36d019bf5abd1a9a83df4d1ec06"
+      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.1/tb-operator-aarch64-apple-darwin.tar.gz"
+      sha256 "82d6776a5e8cad19551d0d2a9a882ae5f0ce9c8e91798a61b9af0809bbea46b2"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.0/tb-operator-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "91d8b8f1f184b0cdd84c3615ae30509a6a991d50b21eee5e0669722aa336b35a"
+      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.1/tb-operator-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ccd646aef3524a1e908b7cf46272a2a089dc5096f1c5943bb86bae95aa54f4e4"
     end
     on_arm do
-      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.0/tb-operator-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a98a4db1dd5fc87b10cfbbebaba468e0f381a83221251cdd0f259cbc6d58b209"
+      url "https://github.com/djensenius/Telephone-Booth-Operator-cli/releases/download/v0.6.1/tb-operator-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "02dbf47f837dc8822b9d17d29eda33aa766d4801aaf861c1100077df89fdde04"
     end
   end
 
