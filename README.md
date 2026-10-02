@@ -32,3 +32,15 @@ UI for the [FIFA World Cup 2026](https://github.com/djensenius/WorldCup-2026).
 | `worldcup26` | Terminal UI (`worldcup26`) for the FIFA World Cup 2026 |
 
 Formula versions are updated automatically by each project's release pipeline.
+
+<!-- backlog-sync formula section: start -->
+## backlog-sync
+
+Mirror Backlog.md tasks one-way to GitHub Issues and GitHub Projects.
+
+```sh
+brew install djensenius/tap/backlog-sync
+```
+
+See https://github.com/djensenius/backlog-sync for configuration and release details.
+<!-- backlog-sync formula section: end -->
